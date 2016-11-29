@@ -6,4 +6,5 @@ $(function() {
 
 function dealWithIt() {
     $("#glasses").animate({}, 1500)
+    console.log("deal");
 }
