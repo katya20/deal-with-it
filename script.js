@@ -5,6 +5,6 @@ $(function() {
 })
 
 function dealWithIt() {
-    $("#glasses").animate({}, 1500)
+    $("#glasses").animate({top: "250"}, 1500)
     console.log("deal");
 }
