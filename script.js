@@ -5,7 +5,7 @@ $(function() {
 })
 
 function dealWithIt() {
-    $("#glasses").animate({top: "250"}, 1500, function () {
+    $("#glasses").animate({top: "280", right: "1500"}, 1500, function () {
       console.log("with");
       button.val("Reset");
     })
