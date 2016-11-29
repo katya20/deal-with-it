@@ -7,7 +7,7 @@ $(function() {
 function dealWithIt() {
     $("#glasses").animate({top: "250"}, 1500, function () {
       console.log("with");
-      button.prop("hi");
+      "button span".text("hi");
     })
     console.log("deal");
 }
